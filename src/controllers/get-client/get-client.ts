@@ -11,7 +11,6 @@ export class GetClientController implements IGetClientController {
                 statusCode: 200,
                 body: clients,
             }
-
         } catch (error) {
             return {
                 statusCode: 500,
